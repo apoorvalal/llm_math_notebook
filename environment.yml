@@ -5,3 +5,7 @@ channels:
 dependencies:
   - xeus-python
   - ipycanvas
+  - pydantic
+  - llm
+  - llm-anthropic
+  - llm-gemini
