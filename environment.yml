@@ -7,8 +7,6 @@ dependencies:
   - pydantic-core
   - pydantic>=2
   - numpy
-  - pip
-  - pip:
-      - llm
-      - openai
-      - google-genai
+  - llm
+  - openai
+  - google-genai
