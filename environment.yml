@@ -1,0 +1,9 @@
+name: xeus-python-kernel
+channels:
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  - xeus-python
+  - pydantic-core  # REQUIRED: Binary backend for Pydantic v2
+  - pydantic>=2
+  - numpy
