@@ -5,7 +5,15 @@ channels:
 dependencies:
   - xeus-python
   - ipycanvas
-  - pydantic
-  - llm
-  - llm-anthropic
-  - llm-gemini
+  - ipywidgets
+  - pydantic-core
+  - pydantic>=2
+  # Other useful libraries for LLMs
+  - numpy
+  - pip
+  - pip:
+    - llm 
+    - openai
+    - google-genai
+	- llm-anthropic
+	- llm-gemini
